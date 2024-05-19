@@ -1,4 +1,6 @@
 import { useDispatch, useSelector } from "react-redux";
+import { addCustomerAction, removeCustomerAction } from "./store/customerReducer";
+import { addCashAction, getCashAction } from "./store/cashReducer";
 
 function App() {
 	const dispatch = useDispatch();	// Это функция для изменения состояния
@@ -6,11 +8,13 @@ function App() {
 	const customers = useSelector(state => state.customers.customers)
 
 	const addCash = (cash) => {
-		dispatch({type: "ADD_CASH", payload: cash})	// Изменяем состояние
+		// dispatch({type: "ADD_CASH", payload: cash})	// Изменяем состояние
+		dispatch(addCashAction(cash));
 	}
 
 	const getCash = (cash) => {
-		dispatch({type: "GET_CASH", payload: cash});
+		// dispatch({type: "GET_CASH", payload: cash});
+		dispatch(getCashAction(cash));
 	}
 
 	const addCustomer = (name) => {
@@ -19,11 +23,13 @@ function App() {
 			name,
 			id: Date.now()
 		}
-		dispatch({type: "ADD_CUSTOMER", payload: customer})
+		// dispatch({type: "ADD_CUSTOMER", payload: customer})
+			// Вместо этого теперь
+		dispatch(addCustomerAction(customer))
 	}
 
 	const removeCustomer = (customer) => {
-		dispatch({type: "REMOVE_CUSTOMERS", payload: customer.id})
+		dispatch(removeCustomerAction(customer.id))
 	}
 
 
@@ -34,22 +40,33 @@ function App() {
 			  <button onClick={() => addCash(Number(prompt()))}>Пополнить счет</button>
 			  <button onClick={() => getCash(Number(prompt()))}>Снять со счета</button>
 			  <button onClick={() => addCustomer(prompt())}>Добавить клиента</button>
-			  <button onClick={() => getCash(Number(prompt()))}>Удалить клиента</button>
+			  <button onClick={() => removeCustomer((prompt()))}>Удалить клиента</button>
 		  </div>
 		  {customers.length > 0 ?
 			  <div>
 				  {customers.map(customer =>
 					  <div
 						  onClick={() => removeCustomer(customer)}
+						  key={customer.id}
 						  style={{
-						  fontSize: "2rem",
-						  border: "1px solid black",
-						  padding: 10,
-						  marginTop: 15,
-						  backgroundColor: "rgb(229 129 179 / 50%)"
-					  }}
+							  display: "flex",
+							  justifyContent: 'space-between',
+							  alignItems: 'center',
+							  fontSize: "2rem",
+							  border: "1px solid black",
+							  padding: 10,
+							  marginTop: 15,
+							  backgroundColor: "rgb(229 129 179 / 50%)"
+						  }}
 					  >
+
 						  {customer.name}
+						  <button
+							  style={{
+								  backgroundColor: 'red',
+								  padding: '5px 10px'
+							  }}
+						  >x</button>
 					  </div>
 				  )}
 			  </div>
