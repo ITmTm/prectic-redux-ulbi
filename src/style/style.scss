@@ -55,12 +55,12 @@ button {
   border-radius: 5px;
   cursor: pointer;
   color: aqua;
-  background-color: #c60a74;
+  background-color: #b64180;
   transition: .5s ease-in;
   &:hover {
     background-color: aqua;
     color: #c60a74;
-    //background-color: #6e0f44;
     transition: .8s ease-out;
+    transform: scale(0.9);
   }
 }
