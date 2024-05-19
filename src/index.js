@@ -8,7 +8,7 @@ import './style/style.scss'
 
 // Создание состояния (чаще всего это объект)
 const defaultState = {
-	cash: 0
+	cash: 5
 }
 
 // Создание Редьюса
