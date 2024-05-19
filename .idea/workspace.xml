@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aeed2a78-cf5a-4136-9840-d34c2b34a417" name="Changes" comment="Technical information">
+    <list default="true" id="aeed2a78-cf5a-4136-9840-d34c2b34a417" name="Changes" comment="Creating one unifying reducer">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="SCSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -117,7 +124,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1716119111474</updated>
-      <workItem from="1716119112334" duration="4324000" />
+      <workItem from="1716119112334" duration="6970000" />
     </task>
     <task id="LOCAL-00001" summary="Creating a reducer and store">
       <option name="closed" value="true" />
@@ -215,7 +222,71 @@
       <option name="project" value="LOCAL" />
       <updated>1716124357616</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Technical information">
+      <option name="closed" value="true" />
+      <created>1716124495823</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1716124495823</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Using useDispatch and useSelector">
+      <option name="closed" value="true" />
+      <created>1716124504551</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1716124504551</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Creating state and calling the useDispatch function">
+      <option name="closed" value="true" />
+      <created>1716125079923</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1716125079923</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Change defaultStore">
+      <option name="closed" value="true" />
+      <created>1716125091634</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1716125091634</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Stylizing">
+      <option name="closed" value="true" />
+      <created>1716125107869</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1716125107869</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Separation of reducers">
+      <option name="closed" value="true" />
+      <created>1716126410456</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1716126410456</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Separation of reducers">
+      <option name="closed" value="true" />
+      <created>1716126413169</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1716126413169</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Creating one unifying reducer">
+      <option name="closed" value="true" />
+      <created>1716126451140</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1716126451140</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,6 +302,12 @@
     <MESSAGE value="Install sass" />
     <MESSAGE value="Stylization" />
     <MESSAGE value="Technical information" />
-    <option name="LAST_COMMIT_MESSAGE" value="Technical information" />
+    <MESSAGE value="Using useDispatch and useSelector" />
+    <MESSAGE value="Creating state and calling the useDispatch function" />
+    <MESSAGE value="Change defaultStore" />
+    <MESSAGE value="Stylizing" />
+    <MESSAGE value="Separation of reducers" />
+    <MESSAGE value="Creating one unifying reducer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating one unifying reducer" />
   </component>
 </project>
