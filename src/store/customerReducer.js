@@ -3,12 +3,17 @@ const defaultState = {
 	customers: []
 }
 
+
+	// Рефакторинг вынос отдельных actions в отдельные константы
+const ADD_CUSTOMER = "ADD_CUSTOMER";
+const REMOVE_CUSTOMERS = 'REMOVE_CUSTOMERS';
+
 // состояние с массивом
 export const customerReducer = (state = defaultState, action) => {
 	switch (action.type) {
-		case "ADD_CUSTOMER":
+		case ADD_CUSTOMER:
 			return {...state, customers: [...state.customers, action.payload]}
-		case "REMOVE_CUSTOMERS":
+		case REMOVE_CUSTOMERS:
 			return {...state, customers: state.customers.filter(customer => customer.id !== action.payload)}
 		default:
 			return state
