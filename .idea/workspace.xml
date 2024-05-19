@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aeed2a78-cf5a-4136-9840-d34c2b34a417" name="Changes" comment="Creating one unifying reducer">
+    <list default="true" id="aeed2a78-cf5a-4136-9840-d34c2b34a417" name="Changes" comment="Code refactoring">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/cashReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/cashReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/customerReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/customerReducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +121,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1716119111474</updated>
-      <workItem from="1716119112334" duration="6970000" />
+      <workItem from="1716119112334" duration="11012000" />
     </task>
     <task id="LOCAL-00001" summary="Creating a reducer and store">
       <option name="closed" value="true" />
@@ -286,7 +283,95 @@
       <option name="project" value="LOCAL" />
       <updated>1716126451140</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Import composeWithDevTools for redux devtools">
+      <option name="closed" value="true" />
+      <created>1716127183323</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1716127183323</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Application of decomposition">
+      <option name="closed" value="true" />
+      <created>1716127221394</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1716127221394</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Install @redux-devtools/extension">
+      <option name="closed" value="true" />
+      <created>1716127240974</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1716127240974</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Install @redux-devtools/extension">
+      <option name="closed" value="true" />
+      <created>1716127244279</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1716127244279</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Import fonts">
+      <option name="closed" value="true" />
+      <created>1716127256029</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1716127256029</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Adding balance">
+      <option name="closed" value="true" />
+      <created>1716127276792</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1716127276792</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Technical info">
+      <option name="closed" value="true" />
+      <created>1716127289768</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1716127289768</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Working with an array">
+      <option name="closed" value="true" />
+      <created>1716130255468</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1716130255468</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Working with an array">
+      <option name="closed" value="true" />
+      <created>1716130268500</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1716130268500</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Stylization">
+      <option name="closed" value="true" />
+      <created>1716130282612</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1716130282612</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Code refactoring">
+      <option name="closed" value="true" />
+      <created>1716130462121</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1716130462121</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,7 +385,6 @@
     <MESSAGE value="Change name" />
     <MESSAGE value="Import style.scss" />
     <MESSAGE value="Install sass" />
-    <MESSAGE value="Stylization" />
     <MESSAGE value="Technical information" />
     <MESSAGE value="Using useDispatch and useSelector" />
     <MESSAGE value="Creating state and calling the useDispatch function" />
@@ -308,6 +392,15 @@
     <MESSAGE value="Stylizing" />
     <MESSAGE value="Separation of reducers" />
     <MESSAGE value="Creating one unifying reducer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating one unifying reducer" />
+    <MESSAGE value="Import composeWithDevTools for redux devtools" />
+    <MESSAGE value="Application of decomposition" />
+    <MESSAGE value="Install @redux-devtools/extension" />
+    <MESSAGE value="Import fonts" />
+    <MESSAGE value="Adding balance" />
+    <MESSAGE value="Technical info" />
+    <MESSAGE value="Working with an array" />
+    <MESSAGE value="Stylization" />
+    <MESSAGE value="Code refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Code refactoring" />
   </component>
 </project>
