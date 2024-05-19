@@ -4,6 +4,8 @@ import App from './App';
 import { createStore } from "redux";
 import { Provider } from "react-redux";
 
+import './style/style.scss'
+
 // Создание состояния (чаще всего это объект)
 const defaultState = {
 	cash: 0
