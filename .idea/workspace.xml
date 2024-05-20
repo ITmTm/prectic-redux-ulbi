@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aeed2a78-cf5a-4136-9840-d34c2b34a417" name="Changes" comment="Code refactoring">
+    <list default="true" id="aeed2a78-cf5a-4136-9840-d34c2b34a417" name="Changes" comment="Import &quot;thunk&quot; and usage applyMiddleware">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/cashReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/cashReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/customerReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/customerReducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,12 +26,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "ITmTm"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ITmTm&quot;
   }
-}]]></component>
+}</component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
     <option name="recentBranches">
@@ -61,15 +58,15 @@
       </RecentBranches>
     </option>
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/ITmTm/prectic-redux-ulbi.git",
-    "accountId": "363b39e7-62e3-4746-b4bd-b943be74b3e4"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ITmTm/prectic-redux-ulbi.git&quot;,
+    &quot;accountId&quot;: &quot;363b39e7-62e3-4746-b4bd-b943be74b3e4&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2ggVGOY1hSvnggNkgCh9lJ4kWrS" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -78,24 +75,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Stafr/Desktop/practic-redux-ulbi",
-    "list.type.of.created.stylesheet": "SCSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "MTConfigurable",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\PhpStorm 2023.1.3\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Stafr/Desktop/practic-redux-ulbi&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MTConfigurable&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\PhpStorm 2023.1.3\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -121,7 +118,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1716119111474</updated>
-      <workItem from="1716119112334" duration="11012000" />
+      <workItem from="1716119112334" duration="11844000" />
+      <workItem from="1716204248409" duration="2708000" />
     </task>
     <task id="LOCAL-00001" summary="Creating a reducer and store">
       <option name="closed" value="true" />
@@ -371,7 +369,95 @@
       <option name="project" value="LOCAL" />
       <updated>1716130462121</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Using createActions">
+      <option name="closed" value="true" />
+      <created>1716131976839</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1716131976839</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Moving actions into separate variables and creating creationActions">
+      <option name="closed" value="true" />
+      <created>1716132041116</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1716132041116</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Moving actions into separate variables and creating creationActions">
+      <option name="closed" value="true" />
+      <created>1716132044008</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1716132044008</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Technical info">
+      <option name="closed" value="true" />
+      <created>1716132065630</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1716132065630</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Adding bg to body">
+      <option name="closed" value="true" />
+      <created>1716206811679</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1716206811679</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Import &quot;redux-thunk&quot;">
+      <option name="closed" value="true" />
+      <created>1716206827010</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1716206827010</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Import &quot;redux-thunk&quot;">
+      <option name="closed" value="true" />
+      <created>1716206829697</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1716206829697</updated>
+    </task>
+    <task id="LOCAL-00039" summary="With Adding a button to get all users from the database">
+      <option name="closed" value="true" />
+      <created>1716206921318</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1716206921318</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Creating a new action">
+      <option name="closed" value="true" />
+      <created>1716206989650</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1716206989650</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Creating async actions">
+      <option name="closed" value="true" />
+      <created>1716207031711</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1716207031711</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Import &quot;thunk&quot; and usage applyMiddleware">
+      <option name="closed" value="true" />
+      <created>1716207107981</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1716207107981</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -379,11 +465,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Creating a reducer and store" />
-    <MESSAGE value="Install react-redux &amp; redux" />
-    <MESSAGE value="Delete" />
-    <MESSAGE value="Change name" />
-    <MESSAGE value="Import style.scss" />
     <MESSAGE value="Install sass" />
     <MESSAGE value="Technical information" />
     <MESSAGE value="Using useDispatch and useSelector" />
@@ -397,10 +478,18 @@
     <MESSAGE value="Install @redux-devtools/extension" />
     <MESSAGE value="Import fonts" />
     <MESSAGE value="Adding balance" />
-    <MESSAGE value="Technical info" />
     <MESSAGE value="Working with an array" />
     <MESSAGE value="Stylization" />
     <MESSAGE value="Code refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="Code refactoring" />
+    <MESSAGE value="Using createActions" />
+    <MESSAGE value="Moving actions into separate variables and creating creationActions" />
+    <MESSAGE value="Technical info" />
+    <MESSAGE value="Adding bg to body" />
+    <MESSAGE value="Import &quot;redux-thunk&quot;" />
+    <MESSAGE value="With Adding a button to get all users from the database" />
+    <MESSAGE value="Creating a new action" />
+    <MESSAGE value="Creating async actions" />
+    <MESSAGE value="Import &quot;thunk&quot; and usage applyMiddleware" />
+    <option name="LAST_COMMIT_MESSAGE" value="Import &quot;thunk&quot; and usage applyMiddleware" />
   </component>
 </project>
