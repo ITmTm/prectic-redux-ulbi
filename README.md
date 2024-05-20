@@ -1,9 +1,9 @@
 # Basic Redux App
 Simple basic Redux
 
-
 <hr>
 
+![practic-redux](https://github.com/ITmTm/prectic-redux-ulbi/assets/98873757/4c5d001f-66fd-430a-92d4-4cd9651c3037)
 
 <hr>
 
