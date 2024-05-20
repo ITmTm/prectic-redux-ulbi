@@ -1,6 +1,7 @@
 import { useDispatch, useSelector } from "react-redux";
 import { addCustomerAction, removeCustomerAction } from "./store/customerReducer";
 import { addCashAction, getCashAction } from "./store/cashReducer";
+import { fetchCustomers } from "./asyncActions/customers";
 
 function App() {
 	const dispatch = useDispatch();	// Это функция для изменения состояния
@@ -35,12 +36,12 @@ function App() {
 
 	return (
 	  <div className={'app'}>
-		  <div style={{fontSize: "3rem", marginBottom: 30}}>Баланс: {cash}</div>
+		  <div style={{fontSize: "3rem", marginBottom: 30}}>Баланс: {cash} $</div>
 		  <div className={'buttons'}>
 			  <button onClick={() => addCash(Number(prompt()))}>Пополнить счет</button>
 			  <button onClick={() => getCash(Number(prompt()))}>Снять со счета</button>
 			  <button onClick={() => addCustomer(prompt())}>Добавить клиента</button>
-			  <button onClick={() => removeCustomer((prompt()))}>Удалить клиента</button>
+			  <button onClick={() => dispatch(fetchCustomers())}>Получить клиентов из базы</button>
 		  </div>
 		  {customers.length > 0 ?
 			  <div>
